@@ -1,0 +1,37 @@
+[
+    {
+        "Nome": "Patolino",
+        "Cod": "128",
+        "Valor": 9.99
+    },
+    {
+        "Nome": "Perna Longa",
+        "Cod": "001",
+        "Valor": 10.0
+    },
+    {
+        "Nome": "Gaguinho",
+        "Cod": "888",
+        "Valor": 8.88
+    },
+    {
+        "Nome": "Frajola",
+        "Cod": "777",
+        "Valor": 6.99
+    },
+    {
+        "Nome": "Piu-Piu",
+        "Cod": "616",
+        "Valor": 2.99
+    },
+    {
+        "Nome": "Batman",
+        "Cod": "444",
+        "Valor": 99.95
+    },
+    {
+        "Nome": "Robin",
+        "Cod": "333",
+        "Valor": 0.05
+    }
+]
