@@ -3,6 +3,10 @@ import json
 
 produtos = []
 loop = 1
+diretorio = "./Data/"
+
+if not os.path.exists(diretorio):
+    os.makedirs(diretorio)
 
 if os.path.exists("Data/Produtos.json"):
     with open("Data/Produtos.json", "r") as json_file:
