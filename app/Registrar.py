@@ -4,8 +4,8 @@ import json
 produtos = []
 loop = 1
 
-if os.path.exists("Produtos.json"):
-    with open("Produtos.json", "r") as json_file:
+if os.path.exists("Data/Produtos.json"):
+    with open("Data/Produtos.json", "r") as json_file:
         produtos = json.load(json_file)
 
 while loop == 1:
@@ -31,5 +31,5 @@ while loop == 1:
 
 json_data = json.dumps(produtos, indent=4)
 
-with open("./Produtos.json", "w") as json_file:
+with open("./Data/Produtos.json", "w") as json_file:
     json_file.write(json_data)

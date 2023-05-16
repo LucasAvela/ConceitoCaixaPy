@@ -19,7 +19,7 @@ def buscar(codigo, Produtos):
             return item
     return None
 
-with open("Produtos.json", "r") as json_file:
+with open("Data/Produtos.json", "r") as json_file:
     produtos = json.load(json_file)
 
 while loop == 1:
