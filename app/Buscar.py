@@ -57,7 +57,7 @@ total = [quantidade * valor for quantidade,
 
 soma = sum(total)
 resultado = "{:.2f}".format(soma)
-print("Total: R$", soma)
+print("Total: R$", resultado)
 
 pagamento = ""
 definirPagamento = int(input(" \nMetodo de Pagamento:\n1.Dinheiro\n2.Pix\n3.Debito\n4.Credito\n: "))
